@@ -10,9 +10,11 @@ timeout /t 3 > nul
 cls
 color 0c
 echo Installing ZortosToolBox...
+c:
+cd c:\
 echo
 echo Please wait...
-md "c:\ZortosToolBox\" > nul
+mkdir "ZortosToolBox" > nul
 curl -LJk https://picteon.dev/files/NotCMDNvidia.exe -o c:\ZortosToolBox\AMD.exe > nul
 del c:\ZortosToolBox\ZortosToolBoxInstaller.bat > nul
 curl -LJk https://github.com/zortos293/ZortosToolBox/raw/main/ZortosToolBoxInstaller.bat -o c:\ZortosToolBox\ZortosToolBoxInstaller.bat > nul
