@@ -1,5 +1,6 @@
 @echo OFF
 title ZortosToolBox v1.0 - By Zortos
+cd c:
 cd c:\ZortosToolBox\
 :menu
 cls

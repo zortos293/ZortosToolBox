@@ -1,6 +1,7 @@
 @echo OFF
 setlocal EnableExtensions EnableDelayedExpansion
 title ZortosToolBox v1.0 - By Zortos    
+cd c:
 :Warning
 color 4f
 echo we are NOT responsible for any damage caused by this tool.

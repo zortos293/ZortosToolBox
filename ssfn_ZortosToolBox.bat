@@ -1,5 +1,6 @@
 REM Windows 10 64-bit
 @echo OFF
+CD C:
 title ZortosToolBox v1.0 - By Zortos
 echo ZortosToolBox v1.0 - By Zortos
 echo Starting ZortosToolBox...
