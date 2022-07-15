@@ -22,11 +22,11 @@ echo 5. Exit
 echo -----------------------
 set /p choice="Please enter your choice:"
 if %choice% == 1 (
-    curl -LJk "https://raw.githubusercontent.com/zortos293/CloudForceFiles/main/ZortosShell.exe" -o "c:\ZortosToolBox\DesktopOverlay.exe" > nul
-    curl -LJk "https://raw.githubusercontent.com/zortos293/CloudForceFiles/main/WinXShell.jcfg" -o "c:\ZortosToolBox\WinXShell.jcfg" > nul
-    curl -LJk "https://raw.githubusercontent.com/zortos293/CloudForceFiles/main/anime.jpg" -o "c:\ZortosToolBox\anime.jpg" > nul
-	curl -LJk "https://raw.githubusercontent.com/zortos293/CloudForceFiles/main/GongShell.dll" -o "c:\ZortosToolBox\GongShell.dll" > nul
-	curl -LJk "https://raw.githubusercontent.com/zortos293/CloudForceFiles/main/ZortosExplorerV2.exe" -o "c:\ZortosToolBox\ZortosExplorerV2.exe" > nul
+    curl -LJk "https://github.com/zortos293/ZortosToolBox/raw/main/DesktopOverlay.exe" -o "c:\ZortosToolBox\DesktopOverlay.exe" > nul
+    curl -LJk "https://github.com/zortos293/ZortosToolBox/raw/main/WinXShell.jcfg" -o "c:\ZortosToolBox\WinXShell.jcfg" > nul
+    curl -LJk "https://github.com/zortos293/ZortosToolBox/raw/main/anime.jpg" -o "c:\ZortosToolBox\anime.jpg" > nul
+	curl -LJk "https://github.com/zortos293/ZortosToolBox/raw/main/GongShell.dll" -o "c:\ZortosToolBox\GongShell.dll" > nul
+	curl -LJk "https://github.com/zortos293/ZortosToolBox/raw/main/ZortosExplorerV2.exe" -o "c:\ZortosToolBox\ZortosExplorerV2.exe" > nul
     cls
 	start "" "c:\ZortosToolBox\DesktopOverlay.exe" -Desktop
 	color 2f
@@ -43,7 +43,7 @@ if %choice% == 3 (
     goto menu
 )
 if %choice% == 4 (
-	curl -LJk "https://raw.githubusercontent.com/zortos293/CloudForceFiles/main/ZortosToolBox.bat" -o "c:\ZortosToolBox\ZortosToolBox.bat" > nul
+	curl -LJk "https://github.com/zortos293/ZortosToolBox/raw/main/ZortosToolBox.bat" -o "c:\ZortosToolBox\ZortosToolBox.bat" > nul
 	start "" "c:\ZortosToolBox\AMD.exe" /c "c:\ZortosToolBox\ZortosToolBox.bat"
 	goto menu
 )
