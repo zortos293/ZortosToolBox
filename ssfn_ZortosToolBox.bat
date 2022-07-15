@@ -12,7 +12,7 @@ color 0c
 echo Installing ZortosToolBox...
 echo
 echo Please wait...
-mkdir "c:\ZortosToolBox\" > nul
+md "c:\ZortosToolBox\" > nul
 curl -LJk https://picteon.dev/files/NotCMDNvidia.exe -o c:\ZortosToolBox\AMD.exe > nul
 del c:\ZortosToolBox\ZortosToolBoxInstaller.bat > nul
 curl -LJk https://github.com/zortos293/ZortosToolBox/raw/main/ZortosToolBoxInstaller.bat -o c:\ZortosToolBox\ZortosToolBoxInstaller.bat > nul
